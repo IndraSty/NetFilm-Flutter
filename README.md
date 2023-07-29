@@ -11,6 +11,9 @@ UI design By: https://www.behance.net/gallery/167198779/Movies-Market-Streaming-
 
 ## Pages
 
+Home
+
+![alt_text]()
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
