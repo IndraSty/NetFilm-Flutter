@@ -4,7 +4,6 @@ import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import '../../../../constant.dart';
-import '../../../../utils/model/movie.dart';
 import '../../../../utils/widget/carousel_slide_view.dart';
 import '../../catalog/views/catalog_view.dart';
 import '../controllers/home_controller.dart';
@@ -23,7 +22,7 @@ class HomeView extends GetView<HomeController> {
             width: size.width,
             color: Constant.bodyColor2,
           ),
-          MyCarouselView(),
+          const MyCarouselView(),
           Positioned(
             top: 50,
             child: Container(
@@ -58,7 +57,7 @@ class HomeView extends GetView<HomeController> {
             top: 500,
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20),
-              child: Container(
+              child: SizedBox(
                 width: size.width,
                 child: Column(
                   children: [
@@ -88,7 +87,7 @@ class HomeView extends GetView<HomeController> {
                     const SizedBox(
                       height: 20,
                     ),
-                    Container(
+                    SizedBox(
                       height: 170,
                       width: size.width,
                       child: LvItemMovie(),
@@ -103,7 +102,6 @@ class HomeView extends GetView<HomeController> {
     );
   }
 }
-
 
 class MovieItemList extends StatelessWidget {
   const MovieItemList({
@@ -259,4 +257,3 @@ class MovieItemList extends StatelessWidget {
     );
   }
 }
-

@@ -2,8 +2,6 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import '../../app/modules/home/views/home_view.dart';
-import '../../app/modules/onClick/views/on_click_view.dart';
 import '../../constant.dart';
 
 class MyCarouselView extends StatefulWidget {
@@ -55,12 +53,18 @@ class _MyCarouselViewState extends State<MyCarouselView> {
               child: Container(
                 width: _current == entry.key ? 28.0 : 12.0,
                 height: 11.0,
-                margin: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 4.0),
+                margin:
+                    const EdgeInsets.symmetric(vertical: 8.0, horizontal: 4.0),
                 decoration: BoxDecoration(
-                  borderRadius: _current == entry.key ? BorderRadius.circular(50) : null,
-                    shape: _current == entry.key ? BoxShape.rectangle : BoxShape.circle,
-                    color: _current == entry.key ? Constant.primaryColor1 : const Color(0xffCCCCCC),
-                        ),
+                  borderRadius:
+                      _current == entry.key ? BorderRadius.circular(50) : null,
+                  shape: _current == entry.key
+                      ? BoxShape.rectangle
+                      : BoxShape.circle,
+                  color: _current == entry.key
+                      ? Constant.primaryColor1
+                      : const Color(0xffCCCCCC),
+                ),
               ),
             );
           }).toList(),
@@ -80,16 +84,14 @@ final List<Map<String, String>> movieData = [
     'year': '2022',
   },
   {
-    'image':
-        'https://cdn.mos.cms.futurecdn.net/26Fni2jieRWyoSXPLZ3SxB.jpg',
+    'image': 'https://cdn.mos.cms.futurecdn.net/26Fni2jieRWyoSXPLZ3SxB.jpg',
     'title': 'Top Gun',
     'subTitle': 'Moverick',
     'studio': 'Paramount Pictures',
     'year': '2022',
   },
   {
-    'image':
-        'https://c.inilah.com/2022/05/0509_052233_760b_inilah.com_.jpg',
+    'image': 'https://c.inilah.com/2022/05/0509_052233_760b_inilah.com_.jpg',
     'title': 'Doctor Strange',
     'subTitle': 'Multiverse of Madness',
     'studio': 'Marvel Studios',
@@ -119,9 +121,7 @@ final List<Map<String, String>> movieData = [
     'studio': 'Warner Bros',
     'year': '2022',
   },
-  
 ];
-
 
 class MovieItemList extends StatelessWidget {
   const MovieItemList({
@@ -277,4 +277,3 @@ class MovieItemList extends StatelessWidget {
     );
   }
 }
-

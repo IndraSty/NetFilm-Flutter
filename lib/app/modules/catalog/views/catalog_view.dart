@@ -214,7 +214,7 @@ class LvItemMovie extends StatelessWidget {
     Movie(
       title: 'Black Phanter',
       imgUrl:
-          'https://assets.jatimnetwork.com/crop/1x72:749x598/750x500/webp/photo/2022/11/03/448960914.jpg',
+          'https://cinemags.org/wp-content/uploads/2022/10/Black-Panther-Wakanda-Forever.jpg',
     ),
     Movie(
       title: 'Top Gun',
