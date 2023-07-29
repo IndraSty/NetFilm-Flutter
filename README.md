@@ -11,16 +11,13 @@ UI design By: https://www.behance.net/gallery/167198779/Movies-Market-Streaming-
 
 ## Pages
 
-Home
+
 ![alt_text](https://github.com/IndraSty/NetFilm-Flutter/blob/indoradesu/assets/github/home.png)
 
-Search
 ![alt_text](https://github.com/IndraSty/NetFilm-Flutter/blob/indoradesu/assets/github/search.png)
 
-Wishlist
 ![alt_text](https://github.com/IndraSty/NetFilm-Flutter/blob/indoradesu/assets/github/wishlist.png)
 
-Profile
 ![alt_text](https://github.com/IndraSty/NetFilm-Flutter/blob/indoradesu/assets/github/profile.png)
 
 
