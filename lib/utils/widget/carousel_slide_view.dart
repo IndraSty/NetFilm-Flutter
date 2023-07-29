@@ -234,8 +234,8 @@ class MovieItemList extends StatelessWidget {
                 const SizedBox(
                   height: 10,
                 ),
-                Row(
-                  children: const [
+                const Row(
+                  children: [
                     Icon(
                       Icons.star_rate_rounded,
                       color: Colors.amber,
