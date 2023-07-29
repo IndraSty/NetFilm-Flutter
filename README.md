@@ -13,7 +13,7 @@ UI design By: https://www.behance.net/gallery/167198779/Movies-Market-Streaming-
 
 Home
 
-![alt_text]()
+![alt_text](https://github.com/IndraSty/NetFilm-Flutter/blob/indoradesu/assets/github/home.png)
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
